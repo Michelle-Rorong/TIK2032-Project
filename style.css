@@ -1,0 +1,35 @@
+body {
+    background-image: url(back.png);
+    background-size: cover;
+}
+
+nav {
+    font-size: larger;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+h3 {
+    font-family: 'Courier New', Courier, monospace;
+    color: rgb(252, 179, 148);
+}
+
+h2 {
+    font-family: cursive;
+    color: whitesmoke;
+}
+
+p {
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(25, 14, 14);
+}
+
+.article {
+    font-style: italic;
+}
+
+section {
+    border: 1px solid rgb(255, 255, 255);
+    padding: 1em;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}

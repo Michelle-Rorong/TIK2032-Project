@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Michelle's Web</title>
+    <link rel="stylesheet" href="style.css" />
+    <style>
+        header, nav, main, footer {
+            display: block;
+            padding: 20px;
+        }
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+        }
+        nav ul li {
+            display: inline;
+            margin-right: 20px;
+        }
+        nav ul li a {
+            text-decoration: none;
+            color: #333333;
+        }
+        .gallery img {
+            width: 100%;
+            max-width: 300px;
+            height: auto;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <center>
+                <li><a href="#home">HOME</a></li>
+                <li><a href="#gallery">GALLERY</a></li>
+                <li><a href="#blog">BLOG</a></li>
+                <li><a href="#contact">CONTACT</a></li>
+                </center>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="home">
+            <h2>HOME</h2>
+                <p>Hello, welcome to this website</p>
+        </section>
+        <section id="gallery">
+            <h2>GALLERY</h2>
+            <div class="gallery">
+            <center>
+                <img src="kupu.jpg" alt="Image 1">
+                <img src="taylor2.jpg" alt="Image 2">
+                <img src="taylor1.jpg" alt="Image 3">
+            </center>
+            </div>
+        </section>
+        <section id="blog">
+            <h2>BLOG</h2>
+            <article>
+                <h3>Article</h3>
+                <div class="article">
+                <p>https://www.kompasiana.com/shadam34363/6102d32a6e383365be68f042/artikel-perkembangan-teknologi-informasi-di-indonesia#google_vignetteS</p>
+                <p>https://www.kompasiana.com/widiaapriyanti/54f67d96a33311bb148b4d50/artikel-kondisi-pendidikan-indonesia</p>
+                <p>https://artikel.rumah123.com/contoh-artikel-bahasa-inggris</p>
+                </div>
+            </article>
+        </section>
+        <section id="contact">
+            <h2>CONTACT</h2>
+            <div style="display: flex; align-items: center;">
+                <img src="gmail.jpg" alt="gambar" width="2%" height="3%" >
+                <p>rorongmichelle@gmail.com</p>
+            </div>
+            <div style="display: flex; align-items: center;">
+                <img src="ig.jpg" alt="gambar2" width="2%" height="3%" >
+                <p>@michellerorong_</p>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 My Website. All rights reserved.</p>
+    </footer>
+</body>
+</html>
