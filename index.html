@@ -27,7 +27,16 @@
             width: 100%;
             max-width: 300px;
             height: auto;
+            cursor: pointer;
         }
+        .gallery img:hover { 
+            transform: scale(1.1); 
+            transition: opacity 0.3s ease-in-out, transform 0.3s ease-in-out;
+        }
+        body {
+            background-color: rgb(190, 215, 255);
+            color: white;
+}
     </style>
 </head>
 <body>
@@ -46,7 +55,7 @@
     <main>
         <section id="home">
             <h2>HOME</h2>
-                <p>Hello, welcome to this website</p>
+                <p>Hello, welcome to this PORTOFOLIO</p>
         </section>
         <section id="gallery">
             <h2>GALLERY</h2>
@@ -63,9 +72,9 @@
             <article>
                 <h3>Article</h3>
                 <div class="article">
-                <p>https://www.kompasiana.com/shadam34363/6102d32a6e383365be68f042/artikel-perkembangan-teknologi-informasi-di-indonesia#google_vignetteS</p>
-                <p>https://www.kompasiana.com/widiaapriyanti/54f67d96a33311bb148b4d50/artikel-kondisi-pendidikan-indonesia</p>
-                <p>https://artikel.rumah123.com/contoh-artikel-bahasa-inggris</p>
+                <p class="art1"> <a href="https://www.kompasiana.com/shadam34363/6102d32a6e383365be68f042/artikel-perkembangan-teknologi-informasi-di-indonesia#google_vignetteS">https://www.kompasiana.com/shadam34363/6102d32a6e383365be68f042/artikel-perkembangan-teknologi-informasi-di-indonesia</a></p>
+                <p class="art2"> <a href="https://www.kompasiana.com/widiaapriyanti/54f67d96a33311bb148b4d50/artikel-kondisi-pendidikan-indonesia">https://www.kompasiana.com/widiaapriyanti/54f67d96a33311bb148b4d50/artikel-kondisi-pendidikan-indonesia</a></p>
+                <p class="art3"> <a href="https://artikel.rumah123.com/contoh-artikel-bahasa-inggris">https://artikel.rumah123.com/contoh-artikel-bahasa-inggris</a></p>
                 </div>
             </article>
         </section>
@@ -73,16 +82,18 @@
             <h2>CONTACT</h2>
             <div style="display: flex; align-items: center;">
                 <img src="gmail.jpg" alt="gambar" width="2%" height="3%" >
-                <p>rorongmichelle@gmail.com</p>
+                <p class="gmail"> <a href="mailto:rorongmichelle@gmail.com">rorongmichelle@gmail.com</a></p>
             </div>
             <div style="display: flex; align-items: center;">
                 <img src="ig.jpg" alt="gambar2" width="2%" height="3%" >
-                <p>@michellerorong_</p>
+                <p class="ig"> <a href="https://www.instagram.com/michellerorong_">@michellerorong_</a></p>
             </div>
         </section>
     </main>
+    <script src="script.js"></script>
     <footer>
         <p>&copy; 2024 My Website. All rights reserved.</p>
     </footer>
+<button onclick="toggleDarkMode()">ChangeMode</button>
 </body>
 </html>
